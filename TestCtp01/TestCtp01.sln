@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCtp01", "TestCtp01\TestCtp01.vcxproj", "{A7395CF7-F38D-46BA-9391-6CF8292C719A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyStrategy", "MyStrategy\MyStrategy.vcxproj", "{36400F43-368D-4D7C-87A8-C4C9AD9DE618}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceLayer", "ServiceLayer\ServiceLayer.vcxproj", "{3EF2F823-9AEB-4786-ABAF-8431136C4BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7395CF7-F38D-46BA-9391-6CF8292C719A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7395CF7-F38D-46BA-9391-6CF8292C719A}.Debug|Win32.Build.0 = Debug|Win32
+		{A7395CF7-F38D-46BA-9391-6CF8292C719A}.Release|Win32.ActiveCfg = Release|Win32
+		{A7395CF7-F38D-46BA-9391-6CF8292C719A}.Release|Win32.Build.0 = Release|Win32
+		{36400F43-368D-4D7C-87A8-C4C9AD9DE618}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36400F43-368D-4D7C-87A8-C4C9AD9DE618}.Debug|Win32.Build.0 = Debug|Win32
+		{36400F43-368D-4D7C-87A8-C4C9AD9DE618}.Release|Win32.ActiveCfg = Release|Win32
+		{36400F43-368D-4D7C-87A8-C4C9AD9DE618}.Release|Win32.Build.0 = Release|Win32
+		{3EF2F823-9AEB-4786-ABAF-8431136C4BCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EF2F823-9AEB-4786-ABAF-8431136C4BCD}.Debug|Win32.Build.0 = Debug|Win32
+		{3EF2F823-9AEB-4786-ABAF-8431136C4BCD}.Release|Win32.ActiveCfg = Release|Win32
+		{3EF2F823-9AEB-4786-ABAF-8431136C4BCD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

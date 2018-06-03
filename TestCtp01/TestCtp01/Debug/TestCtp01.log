@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/8/30 11:32:43。
+     1>项目“C:\Users\apple\Desktop\CTP\TestCtp01\TestCtp01\TestCtp01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../sdk1 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestCtp01.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestCtp01.cpp TestCtp01Dlg.cpp
+         TestCtp01Dlg.cpp
+         正在生成代码...
+         正在编译...
+         TestCtp01.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\apple\Desktop\CTP\TestCtp01\Debug\TestCtp01.exe" /INCREMENTAL /NOLOGO ../../sdk1/thosttraderapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\apple\Desktop\CTP\TestCtp01\Debug\TestCtp01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\apple\Desktop\CTP\TestCtp01\Debug\TestCtp01.lib" /MACHINE:X86 Debug\TestCtp01.res
+         Debug\stdafx.obj
+         Debug\TestCtp01.obj
+         Debug\TestCtp01Dlg.obj
+         TestCtp01.vcxproj -> C:\Users\apple\Desktop\CTP\TestCtp01\Debug\TestCtp01.exe
+     1>已完成生成项目“C:\Users\apple\Desktop\CTP\TestCtp01\TestCtp01\TestCtp01.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.63
