@@ -56,7 +56,7 @@ fprintf(1,['账户资金:' num2str(balance) '\n' ]);
 % 写 csv 文件
 pos = strfind(results ,'持仓合约');
 nn = length(pos);
-fid = fopen(['C:\D\future\m\跟踪开仓-记录资金-图像识别-4\记录资金\持仓', '.csv'], 'wt');
+fid = fopen(['C:\D\xyz\future\m\跟踪开仓-记录资金-图像识别-4\记录资金\持仓', '.csv'], 'wt');
 for k = 1:nn+1
     if k == 1
         fprintf(fid, '%s,', '');
