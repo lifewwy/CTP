@@ -3,6 +3,7 @@ function balance = GetAccountInfo(FRONT_ADDR_TD,BROKER_ID,...
 
 % clear; clc; close all;
 
+
 %% 登录配置
 % SimNow 1   交易阶段(服务时间)：与实际生产环境保持一致
 % FRONT_ADDR_MD = 'tcp://180.168.146.187:10010';
