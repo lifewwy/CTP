@@ -3,7 +3,7 @@ function balance = GetAccountInfo(FRONT_ADDR_TD,BROKER_ID,...
 
 % clear; clc; close all;
 
-
+balance = 0;
 %% 登录配置
 % SimNow 1   交易阶段(服务时间)：与实际生产环境保持一致
 % FRONT_ADDR_MD = 'tcp://180.168.146.187:10010';
@@ -37,7 +37,9 @@ function balance = GetAccountInfo(FRONT_ADDR_TD,BROKER_ID,...
 
 
 %% 交易账户查询
-cmd = 'C:\Users\apple\Desktop\CTP\交易账户查询_01\Bin\testTraderApi.exe ';
+% cmd = 'C:\Users\apple\Desktop\CTP\交易账户查询_01\Bin\testTraderApi.exe ';
+% ---- 20180714 --- 20 秒退出testTraderApi.exe ----
+cmd = 'C:\Users\apple\Desktop\CTP\交易账户查询_02\Bin\testTraderApi.exe ';
 
 x = [FRONT_ADDR_TD,...
     ' ',BROKER_ID,' ',INVESTOR_ID,' ',PASSWORD];
@@ -50,12 +52,20 @@ end
 
 % 结果分析
 pos = strfind(results ,'账户资金');
+if isempty(pos)
+    return;
+end
 vv = results(pos:pos+22);
 balance = str2double(vv(find(vv==':')+1 : find(vv==';')-1));
 fprintf(1,['账户资金:' num2str(balance) '\n' ]);
 
+
 % 写 csv 文件
 pos = strfind(results ,'持仓合约');
+if isempty(pos)
+    balance = 0; % 同时作为Flag使用
+    return;
+end
 nn = length(pos);
 fid = fopen(['C:\D\xyz\future\m\跟踪开仓-记录资金-图像识别-4\记录资金\持仓', '.csv'], 'wt');
 for k = 1:nn+1
